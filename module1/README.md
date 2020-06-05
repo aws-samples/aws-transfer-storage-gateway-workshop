@@ -12,7 +12,7 @@ Errors or corrections? Contact [jeffbart@amazon.com](mailto:jeffbart@amazon.com)
 
 In this module, you will use CloudFormation to deploy all AWS resources necessary to complete this workshop, as shown in the diagram below.  The resources include an AWS Transfer server, an EC2 instance running Storage Gateway in File mode (i.e. File Gateway), and a Linux server running on EC2.  An S3 bucket will also be created in the region you select.  IAM roles will be automatically created to secure access to the S3 bucket.
 
-<img src="../images/fullarch.png" width="75%" height="75%">
+<img src="../images/fullarch.png" width="85%" height="85%">
 
 ## Module Steps
 
@@ -50,7 +50,7 @@ On the CloudFormation page , click on the **Outputs** tab, as shown in the image
 - **linuxServerPrivateIP** – This is the private IP address of the Linux server.  You will use this when you create the File Gateway share and when you configure the security group for the AWS Transfer VPC endpoint.  
 - **transferServerId** – This is the ID of the AWS Transfer server that was created.  
 
-<img src="../images/mod1-cfout.png" width="75%" height="75%">
+  <img src="../images/mod1-cfout.png" width="75%" height="75%">
 
 ## Validation Step
 
