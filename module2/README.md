@@ -30,7 +30,7 @@ Follow the steps below to activate the gateway.
 10. Configure the setting to _Disable logging_ then click **Save and continue.**
 11. From the main Storage Gateway page, you will see your gateway listed.
 
-    <img src="../images/mod2-newgw.png" width="85%" height="85%">
+    <img src="../images/mod2-newgw.png" width="90%" height="90%">
 
 #### 2. Create an NFS share
 
@@ -73,7 +73,7 @@ To verify that the File Gateway is working correctly, create a simple file using
 
 Return to the AWS console, click  **Services**  and select **S3**.  Click on the bucket that was created via CloudFormation in the previous module.  Inside the bucket you should see a single object with a name that matches the file you just created on the Linux server.
 
-<img src="../images/mod2-s3.png" width="80%" height="80%">
+<img src="../images/mod2-s3.png" width="85%" height="85%">
 
 When a file is written to File Gateway it is cached locally on the gateway and then persisted as an object in the S3 bucket that was configured for the gateway share.  The object stores both file data and metadata.  Click on the file and then click the **Open** button.  You should see "Hello World" displayed in your browswer.
 

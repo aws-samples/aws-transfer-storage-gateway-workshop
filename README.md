@@ -32,7 +32,7 @@ In order to complete this workshop, you will need an AWS account with rights to 
 
 ## Cost
 
-It will cost approximately **10.00 USD** to run this workshop.  It is recommended that you follow the cleanup instructions once you have completed the workshop to remove all deployed resources and limit ongoing costs to your AWS account.
+It will cost approximately **3.00 USD** to run this workshop.  It is recommended that you follow the cleanup instructions once you have completed the workshop to remove all deployed resources and limit ongoing costs to your AWS account.
 
 ## Related workshops
 

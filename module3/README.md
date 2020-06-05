@@ -57,12 +57,12 @@ Before you can connect to the AWS Transfer server from the Linux server, you wil
 3. Check the box next to the endpoint where the **Service name** contains "transfer.server".
 4. Click on the **Security Groups** tab to view the security groups assigned to the VPC endpoint.  There should be only one security group in the list, which is the default security group for the VPC.
 
-    <img src="../images/mod3-sglist.png" width="85%" height="85%">
+    <img src="../images/mod3-sglist.png" width="90%" height="90%">
 
 5. Click on the security group ID to view the rules for the security group.
 6. In the new page that opens, click on the **Inbound rules** tab.
 
-    <img src="../images/mod3-edit-sg.png" width="85%" height="85%">
+    <img src="../images/mod3-edit-sg.png" width="90%" height="90%">
 
 7. Click on the **Edit inbound rules** button.
 8. Click on **Add rule**.
@@ -70,7 +70,7 @@ Before you can connect to the AWS Transfer server from the Linux server, you wil
 10. Under the **Source**, select "Custom" and then in the adjacent box, enter the **Private IP address** of the Linux server, followed by "/32".  You can get the private IP address from the CloudFormation outputs.
 11. Scroll down and click the **Save rules** button.
 
-    <img src="../images/mod3-sg-rules.png" width="85%" height="85%">
+    <img src="../images/mod3-sg-rules.png" width="90%" height="90%">
 
 In AWS, security groups act like firewalls, controlling inbound and outbound traffic to AWS resources.  In editing the security group, you have added a new rule allowing inbound traffic from the Linux server to reach the VPC endpoint, which will then automatically route traffic to the AWS Transfer server.
 

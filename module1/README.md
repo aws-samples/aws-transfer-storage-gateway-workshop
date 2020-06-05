@@ -50,7 +50,7 @@ On the CloudFormation page , click on the **Outputs** tab, as shown in the image
 - **linuxServerPrivateIP** – This is the private IP address of the Linux server.  You will use this when you create the File Gateway share and when you configure the security group for the AWS Transfer VPC endpoint.  
 - **transferServerId** – This is the ID of the AWS Transfer server that was created.  
 
-  <img src="../images/mod1-cfout.png" width="75%" height="75%">
+  <img src="../images/mod1-cfout.png" width="85%" height="85%">
 
 ## Validation Step
 
